@@ -161,43 +161,43 @@
           "name": "врПриб",
           "caption": "Время прибытия",
           "hidden": false,
-          "index": 8
+          "index": 12
         },
         {
           "name": "врУб",
           "caption": "Время убытия",
           "hidden": false,
-          "index": 9
+          "index": 13
         },
         {
           "name": "клЧасНОб",
           "caption": "Количество часов на объекте",
           "hidden": false,
-          "index": 10
+          "index": 14
         },
         {
           "name": "кдПрост",
           "caption": "Код простоя",
           "hidden": false,
-          "index": 11
+          "index": 15
         },
         {
           "name": "колЧасПр",
           "caption": "Количество часов простоя",
           "hidden": false,
-          "index": 12
+          "index": 16
         },
         {
           "name": "колЧасРаб",
           "caption": "Количество часов работы",
           "hidden": false,
-          "index": 13
+          "index": 17
         },
         {
           "name": "обГруз",
           "caption": "Объем груза",
           "hidden": false,
-          "index": 14
+          "index": 18
         }
       ],
       "belongsTo": [
@@ -262,6 +262,69 @@
           "caption": "Вид работы",
           "name": "спрВидыРаб",
           "relatedTo": "i-i-s-prilozhenie-03-спр-виды-раб",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Транспортное средство",
+          "lookupValueField": "транспортное средство",
+          "relationName": "СпрТранспСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Транспортное средство",
+              "hidden": false,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Транспортное средство",
+          "name": "спрТранспСр",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-трансп-ср",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Тип транспортного средство",
+          "lookupValueField": "тип транспортного средство",
+          "relationName": "СпрТипТрансСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Тип транспортного средство",
+              "hidden": false,
+              "index": 11
+            }
+          ],
+          "index": 10,
+          "type": "standard",
+          "caption": "Тип транспортного средство",
+          "name": "спрТипТрансСр",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-тип-транс-ср",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Единицы измерения",
+          "lookupValueField": "единицы измерения",
+          "relationName": "СпрЕдИзмер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Единицы измерения",
+              "hidden": false,
+              "index": 20
+            }
+          ],
+          "index": 19,
+          "type": "standard",
+          "caption": "Единицы измерения",
+          "name": "спрЕдИзмер",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-ед-измер",
           "inverse": null
         }
       ],
