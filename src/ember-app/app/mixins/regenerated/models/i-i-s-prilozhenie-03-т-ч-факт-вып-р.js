@@ -137,13 +137,22 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТЧФактВыпРE', 'i-i-s-prilozhenie-03-т-ч-факт-вып-р', {
     статЗатр: attr('Статья затрат', { index: 0 }),
-    обРаб: attr('Объем работы', { index: 1 }),
-    врПриб: attr('Время прибытия', { index: 2 }),
-    врУб: attr('Время убытия', { index: 3 }),
-    клЧасНОб: attr('Количество часов на объекте', { index: 4 }),
-    кдПрост: attr('Код простоя', { index: 5 }),
-    колЧасПр: attr('Количество часов простоя', { index: 6 }),
-    колЧасРаб: attr('Количество часов работы', { index: 7 }),
-    обГруз: attr('Объем груза', { index: 8 })
+    спрНомен: belongsTo('i-i-s-prilozhenie-03-спр-номен', 'Номенклатура', {
+      наименование: attr('Номенклатура', { index: 2 })
+    }, { index: 1, displayMemberPath: 'номенклатура' }),
+    спрКонтрАг: belongsTo('i-i-s-prilozhenie-03-спр-контр-аг', 'Контрагент', {
+      наименование: attr('Контрагент', { index: 4 })
+    }, { index: 3, displayMemberPath: 'контрагент' }),
+    спрВидыРаб: belongsTo('i-i-s-prilozhenie-03-спр-виды-раб', 'Вид работы', {
+      наименование: attr('Вид работы', { index: 6 })
+    }, { index: 5, displayMemberPath: 'вид работы' }),
+    обРаб: attr('Объем работы', { index: 7 }),
+    врПриб: attr('Время прибытия', { index: 8 }),
+    врУб: attr('Время убытия', { index: 9 }),
+    клЧасНОб: attr('Количество часов на объекте', { index: 10 }),
+    кдПрост: attr('Код простоя', { index: 11 }),
+    колЧасПр: attr('Количество часов простоя', { index: 12 }),
+    колЧасРаб: attr('Количество часов работы', { index: 13 }),
+    обГруз: attr('Объем груза', { index: 14 })
   });
 };

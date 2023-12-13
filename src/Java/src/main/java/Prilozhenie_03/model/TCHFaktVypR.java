@@ -22,23 +22,11 @@ public class TCHFaktVypR {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "СтатЗатр")
-    private String статзатр;
-
-    @Column(name = "ОбРаб")
-    private String обраб;
-
-    @Column(name = "ВрПриб")
-    private String врприб;
-
-    @Column(name = "ВрУб")
-    private String вруб;
-
     @Column(name = "КлЧасНОб")
     private Float клчасноб;
 
-    @Column(name = "КдПрост")
-    private Float кдпрост;
+    @Column(name = "ВрПриб")
+    private String врприб;
 
     @Column(name = "ОбГруз")
     private Float обгруз;
@@ -46,8 +34,20 @@ public class TCHFaktVypR {
     @Column(name = "КолЧасПр")
     private Float колчаспр;
 
+    @Column(name = "ВрУб")
+    private String вруб;
+
     @Column(name = "КолЧасРаб")
     private Float колчасраб;
+
+    @Column(name = "ОбРаб")
+    private String обраб;
+
+    @Column(name = "КдПрост")
+    private Float кдпрост;
+
+    @Column(name = "СтатЗатр")
+    private String статзатр;
 
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "SprTipTransSr")
@@ -132,38 +132,6 @@ public class TCHFaktVypR {
         return primarykey;
     }
 
-    public String getСтатЗатр() {
-      return статзатр;
-    }
-
-    public void setСтатЗатр(String статзатр) {
-      this.статзатр = статзатр;
-    }
-
-    public String getОбРаб() {
-      return обраб;
-    }
-
-    public void setОбРаб(String обраб) {
-      this.обраб = обраб;
-    }
-
-    public String getВрПриб() {
-      return врприб;
-    }
-
-    public void setВрПриб(String врприб) {
-      this.врприб = врприб;
-    }
-
-    public String getВрУб() {
-      return вруб;
-    }
-
-    public void setВрУб(String вруб) {
-      this.вруб = вруб;
-    }
-
     public Float getКлЧасНОб() {
       return клчасноб;
     }
@@ -172,12 +140,12 @@ public class TCHFaktVypR {
       this.клчасноб = клчасноб;
     }
 
-    public Float getКдПрост() {
-      return кдпрост;
+    public String getВрПриб() {
+      return врприб;
     }
 
-    public void setКдПрост(Float кдпрост) {
-      this.кдпрост = кдпрост;
+    public void setВрПриб(String врприб) {
+      this.врприб = врприб;
     }
 
     public Float getОбГруз() {
@@ -196,12 +164,44 @@ public class TCHFaktVypR {
       this.колчаспр = колчаспр;
     }
 
+    public String getВрУб() {
+      return вруб;
+    }
+
+    public void setВрУб(String вруб) {
+      this.вруб = вруб;
+    }
+
     public Float getКолЧасРаб() {
       return колчасраб;
     }
 
     public void setКолЧасРаб(Float колчасраб) {
       this.колчасраб = колчасраб;
+    }
+
+    public String getОбРаб() {
+      return обраб;
+    }
+
+    public void setОбРаб(String обраб) {
+      this.обраб = обраб;
+    }
+
+    public Float getКдПрост() {
+      return кдпрост;
+    }
+
+    public void setКдПрост(Float кдпрост) {
+      this.кдпрост = кдпрост;
+    }
+
+    public String getСтатЗатр() {
+      return статзатр;
+    }
+
+    public void setСтатЗатр(String статзатр) {
+      this.статзатр = статзатр;
     }
 
 

@@ -31,6 +31,12 @@ namespace IIS.Prilozhenie_03
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧФактВыпРE", new string[] {
             "СтатЗатр as \'Статья затрат\'",
+            "СпрНомен as \'Номенклатура\'",
+            "СпрНомен.Наименование as \'Номенклатура\'",
+            "СпрКонтрАг as \'Контрагент\'",
+            "СпрКонтрАг.Наименование as \'Контрагент\'",
+            "СпрВидыРаб as \'Вид работы\'",
+            "СпрВидыРаб.Наименование as \'Вид работы\'",
             "ОбРаб as \'Объем работы\'",
             "ВрПриб as \'Время прибытия\'",
             "ВрУб as \'Время убытия\'",
@@ -39,26 +45,29 @@ namespace IIS.Prilozhenie_03
             "КолЧасПр as \'Количество часов простоя\'",
             "КолЧасРаб as \'Количество часов работы\'",
             "ОбГруз as \'Объем груза\'"})]
+    [MasterViewDefineAttribute("ТЧФактВыпРE", "СпрНомен", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номенклатура")]
+    [MasterViewDefineAttribute("ТЧФактВыпРE", "СпрКонтрАг", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Контрагент")]
+    [MasterViewDefineAttribute("ТЧФактВыпРE", "СпрВидыРаб", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Вид работы")]
     public class ТЧФактВыпР : ICSSoft.STORMNET.DataObject
     {
         
-        private string fСтатЗатр;
-        
-        private string fОбРаб;
-        
-        private string fВрПриб;
-        
-        private string fВрУб;
-        
         private float fКлЧасНОб;
         
-        private float fКдПрост;
+        private string fВрПриб;
         
         private float fОбГруз;
         
         private float fКолЧасПр;
         
+        private string fВрУб;
+        
         private float fКолЧасРаб;
+        
+        private string fОбРаб;
+        
+        private float fКдПрост;
+        
+        private string fСтатЗатр;
         
         private IIS.Prilozhenie_03.СпрТипТрансСр fСпрТипТрансСр;
         
