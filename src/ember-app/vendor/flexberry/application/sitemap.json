@@ -63,6 +63,20 @@
           "caption": "Справочник пользователи",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-факт-выпол-раб-l",
+          "menuName": null,
+          "caption": "Документ: Фактическое выполнение работ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-док-план-за-на-д-l",
+          "menuName": null,
+          "caption": "Документ: Плановая заявка на день",
+          "title": "",
+          "children": null
         }
       ]
     }

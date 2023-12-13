@@ -1,0 +1,210 @@
+﻿{
+  "name": "IISPrilozhenie_03ТЧФактВыпР",
+  "modelName": "i-i-s-prilozhenie-03-т-ч-факт-вып-р",
+  "className": "ТЧФактВыпР",
+  "nameSpace": "IIS.Prilozhenie_03",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "врПриб",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "врУб",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кдПрост",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "клЧасНОб",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "колЧасПр",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "колЧасРаб",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "обГруз",
+      "type": "decimal",
+      "flexberryType": "float",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "обРаб",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "статЗатр",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрВидыРаб",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-виды-раб",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрЕдИзмер",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-ед-измер",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрКонтрАг",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-контр-аг",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрНомен",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-номен",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрТипТрансСр",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-тип-транс-ср",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "спрТранспСр",
+      "relatedTo": "i-i-s-prilozhenie-03-спр-трансп-ср",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "фактВыполРаб",
+      "relatedTo": "i-i-s-prilozhenie-03-факт-выпол-раб",
+      "inverse": "тЧФактВыпР"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧФактВыпРE",
+      "modelName": "i-i-s-prilozhenie-03-т-ч-факт-вып-р",
+      "attrs": [
+        {
+          "name": "статЗатр",
+          "caption": "Статья затрат",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "обРаб",
+          "caption": "Объем работы",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "врПриб",
+          "caption": "Время прибытия",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "врУб",
+          "caption": "Время убытия",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "клЧасНОб",
+          "caption": "Количество часов на объекте",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "кдПрост",
+          "caption": "Код простоя",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "колЧасПр",
+          "caption": "Количество часов простоя",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "колЧасРаб",
+          "caption": "Количество часов работы",
+          "hidden": false,
+          "index": 7
+        },
+        {
+          "name": "обГруз",
+          "caption": "Объем груза",
+          "hidden": false,
+          "index": 8
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

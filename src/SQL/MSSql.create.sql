@@ -15,6 +15,45 @@ CREATE TABLE [СпрПользов] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [ТЧФактВыпР] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ВрПриб] VARCHAR(255)  NULL,
+
+	 [ВрУб] VARCHAR(255)  NULL,
+
+	 [КдПрост] REAL  NULL,
+
+	 [КлЧасНОб] REAL  NULL,
+
+	 [КолЧасПр] REAL  NULL,
+
+	 [КолЧасРаб] REAL  NULL,
+
+	 [ОбГруз] REAL  NULL,
+
+	 [ОбРаб] VARCHAR(255)  NULL,
+
+	 [СтатЗатр] VARCHAR(255)  NULL,
+
+	 [СпрВидыРаб] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрЕдИзмер] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрКонтрАг] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрНомен] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрТипТрансСр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрТранспСр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ФактВыполРаб] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрЕдИзмер] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -22,6 +61,25 @@ CREATE TABLE [СпрЕдИзмер] (
 	 [Код] INT  NULL,
 
 	 [Наименование] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [ФактВыполРаб] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Время] VARCHAR(255)  NULL,
+
+	 [Дата] DATETIME  NULL,
+
+	 [Номер] INT  NULL,
+
+	 [СпрКонтрАг] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрОбъектСтр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрПользов] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
@@ -64,6 +122,37 @@ CREATE TABLE [СпрНомен] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [ТЧПлЗНаД] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ВремПриб] DATETIME  NULL,
+
+	 [КолЧас] REAL  NULL,
+
+	 [ОбГруз] REAL  NULL,
+
+	 [ОбРаб] VARCHAR(255)  NULL,
+
+	 [СтЗатрат] VARCHAR(255)  NULL,
+
+	 [СпрВидыРаб] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрЕдИзмер] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрКонтрАг] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрНомен] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрТипТрансСр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрТранспСр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ДокПланЗаНаД] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СпрТранспСр] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -92,6 +181,25 @@ CREATE TABLE [СпрОбъектСтр] (
 	 [Код] INT  NULL,
 
 	 [Наименование] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [ДокПланЗаНаД] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Время] VARCHAR(255)  NULL,
+
+	 [Дата] DATETIME  NULL,
+
+	 [Номер] INT  NULL,
+
+	 [СпрКонтрАг] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрОбъектСтр] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [СпрПользов] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 

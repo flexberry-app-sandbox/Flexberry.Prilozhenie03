@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрПользов",
+      "projection": "СпрПользовL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрКонтрАг",
+      "projection": "СпрКонтрАгL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрОбъектСтр",
+      "projection": "СпрОбъектСтрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Плановая заявка на день",
+  "name": "IISPrilozhenie_03ДокПланЗаНаДE",
+  "className": "ДокПланЗаНаДE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-03-док-план-за-на-д",
+      "modelProjection": "ДокПланЗаНаДE"
+    }
+  ]
+}

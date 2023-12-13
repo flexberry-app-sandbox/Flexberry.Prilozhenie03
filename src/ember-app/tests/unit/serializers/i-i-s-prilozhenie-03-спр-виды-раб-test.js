@@ -9,6 +9,7 @@ moduleForModel('i-i-s-prilozhenie-03-спр-виды-раб', 'Unit | Serializer
     'transform:decimal',
     'transform:guid',
 
+    'model:i-i-s-prilozhenie-03-док-план-за-на-д',
     'model:i-i-s-prilozhenie-03-спр-виды-раб',
     'model:i-i-s-prilozhenie-03-спр-ед-измер',
     'model:i-i-s-prilozhenie-03-спр-контр-аг',
@@ -17,6 +18,9 @@ moduleForModel('i-i-s-prilozhenie-03-спр-виды-раб', 'Unit | Serializer
     'model:i-i-s-prilozhenie-03-спр-пользов',
     'model:i-i-s-prilozhenie-03-спр-тип-транс-ср',
     'model:i-i-s-prilozhenie-03-спр-трансп-ср',
+    'model:i-i-s-prilozhenie-03-т-ч-пл-з-на-д',
+    'model:i-i-s-prilozhenie-03-т-ч-факт-вып-р',
+    'model:i-i-s-prilozhenie-03-факт-выпол-раб',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

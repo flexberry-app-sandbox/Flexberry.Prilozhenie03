@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрПользов",
+      "projection": "СпрПользовL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрКонтрАг",
+      "projection": "СпрКонтрАгL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СпрОбъектСтр",
+      "projection": "СпрОбъектСтрL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Фактическое выполнение работ",
+  "name": "IISPrilozhenie_03ФактВыполРабE",
+  "className": "ФактВыполРабE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-03-факт-выпол-раб",
+      "modelProjection": "ФактВыполРабE"
+    }
+  ]
+}

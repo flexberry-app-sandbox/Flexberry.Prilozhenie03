@@ -3,6 +3,7 @@ import { moduleForModel, test } from 'ember-qunit';
 moduleForModel('i-i-s-prilozhenie-03-спр-номен', 'Unit | Model | i-i-s-prilozhenie-03-спр-номен', {
   // Specify the other units that are required for this test.
   needs: [
+    'model:i-i-s-prilozhenie-03-док-план-за-на-д',
     'model:i-i-s-prilozhenie-03-спр-виды-раб',
     'model:i-i-s-prilozhenie-03-спр-ед-измер',
     'model:i-i-s-prilozhenie-03-спр-контр-аг',
@@ -11,6 +12,9 @@ moduleForModel('i-i-s-prilozhenie-03-спр-номен', 'Unit | Model | i-i-s-p
     'model:i-i-s-prilozhenie-03-спр-пользов',
     'model:i-i-s-prilozhenie-03-спр-тип-транс-ср',
     'model:i-i-s-prilozhenie-03-спр-трансп-ср',
+    'model:i-i-s-prilozhenie-03-т-ч-пл-з-на-д',
+    'model:i-i-s-prilozhenie-03-т-ч-факт-вып-р',
+    'model:i-i-s-prilozhenie-03-факт-выпол-раб',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

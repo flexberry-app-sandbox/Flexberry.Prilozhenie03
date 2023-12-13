@@ -6,6 +6,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function () {
+  this.route('i-i-s-prilozhenie-03-док-план-за-на-д-l');
+  this.route('i-i-s-prilozhenie-03-док-план-за-на-д-e',
+  { path: 'i-i-s-prilozhenie-03-док-план-за-на-д-e/:id' });
+  this.route('i-i-s-prilozhenie-03-док-план-за-на-д-e.new',
+  { path: 'i-i-s-prilozhenie-03-док-план-за-на-д-e/new' });
   this.route('i-i-s-prilozhenie-03-пользователи-l');
   this.route('i-i-s-prilozhenie-03-пользователи-e',
   { path: 'i-i-s-prilozhenie-03-пользователи-e/:id' });
@@ -51,6 +56,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie-03-спр-трансп-ср-e/:id' });
   this.route('i-i-s-prilozhenie-03-спр-трансп-ср-e.new',
   { path: 'i-i-s-prilozhenie-03-спр-трансп-ср-e/new' });
+  this.route('i-i-s-prilozhenie-03-факт-выпол-раб-l');
+  this.route('i-i-s-prilozhenie-03-факт-выпол-раб-e',
+  { path: 'i-i-s-prilozhenie-03-факт-выпол-раб-e/:id' });
+  this.route('i-i-s-prilozhenie-03-факт-выпол-раб-e.new',
+  { path: 'i-i-s-prilozhenie-03-факт-выпол-раб-e/new' });
 });
 
 export default Router;
