@@ -125,13 +125,13 @@
           "name": "времПриб",
           "caption": "Время прибытия",
           "hidden": false,
-          "index": 8
+          "index": 12
         },
         {
           "name": "колЧас",
           "caption": "Количество часов работы",
           "hidden": false,
-          "index": 9
+          "index": 13
         }
       ],
       "belongsTo": [
@@ -196,6 +196,69 @@
           "caption": "Вид работы",
           "name": "спрВидыРаб",
           "relatedTo": "i-i-s-prilozhenie-03-спр-виды-раб",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Транспортное средство",
+          "lookupValueField": "транспортное средство",
+          "relationName": "СпрТранспСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Транспортное средство",
+              "hidden": false,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Транспортное средство",
+          "name": "спрТранспСр",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-трансп-ср",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Тип транспортного средства",
+          "lookupValueField": "тип транспортного средства",
+          "relationName": "СпрТипТрансСр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Тип транспортного средства",
+              "hidden": false,
+              "index": 11
+            }
+          ],
+          "index": 10,
+          "type": "standard",
+          "caption": "Тип транспортного средства",
+          "name": "спрТипТрансСр",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-тип-транс-ср",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Единицы измерения",
+          "lookupValueField": "единицы измерения",
+          "relationName": "СпрЕдИзмер",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Единицы измерения",
+              "hidden": false,
+              "index": 15
+            }
+          ],
+          "index": 14,
+          "type": "standard",
+          "caption": "Единицы измерения",
+          "name": "спрЕдИзмер",
+          "relatedTo": "i-i-s-prilozhenie-03-спр-ед-измер",
           "inverse": null
         }
       ],
