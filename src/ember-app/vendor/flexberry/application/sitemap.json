@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Prilozhenie_03",
+  "applicationTitle": "Prilozhenie_03",
+  "items": [
+    {
+      "link": null,
+      "menuName": "prilozhenie-03",
+      "caption": "Prilozhenie_03",
+      "title": "Prilozhenie_03",
+      "children": [
+        {
+          "link": "i-i-s-prilozhenie-03-спр-пользов-l",
+          "menuName": null,
+          "caption": "Справочник пользователи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-ед-измер-l",
+          "menuName": null,
+          "caption": "Справочник единицы измерения",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-контр-аг-l",
+          "menuName": null,
+          "caption": "Справочник контрагенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-номен-l",
+          "menuName": null,
+          "caption": "Справочник номенклатура",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-трансп-ср-l",
+          "menuName": null,
+          "caption": "Справочник транспортные средства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-объект-стр-l",
+          "menuName": null,
+          "caption": "Справочник объект строительства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-тип-транс-ср-l",
+          "menuName": null,
+          "caption": "Справочник тип транспортного средства",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-виды-раб-l",
+          "menuName": null,
+          "caption": "Справочник виды работ",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
