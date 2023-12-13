@@ -74,10 +74,10 @@ CREATE TABLE СпрНомен (
 
 CREATE TABLE ТЧПлЗНаД (
  primaryKey UUID NOT NULL,
- ВремПриб TIMESTAMP(3) NULL,
- ОбРаб VARCHAR(255) NULL,
- ОбГруз REAL NULL,
  КолЧас REAL NULL,
+ ОбГруз REAL NULL,
+ ОбРаб VARCHAR(255) NULL,
+ ВремПриб TIMESTAMP(3) NULL,
  СтЗатрат VARCHAR(255) NULL,
  СпрТипТрансСр UUID NOT NULL,
  СпрТранспСр UUID NOT NULL,

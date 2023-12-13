@@ -139,13 +139,13 @@ CREATE TABLE "ТЧПлЗНаД"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"ВремПриб" DATE NULL,
-
-	"ОбРаб" NVARCHAR2(255) NULL,
+	"КолЧас" FLOAT(53) NULL,
 
 	"ОбГруз" FLOAT(53) NULL,
 
-	"КолЧас" FLOAT(53) NULL,
+	"ОбРаб" NVARCHAR2(255) NULL,
+
+	"ВремПриб" DATE NULL,
 
 	"СтЗатрат" NVARCHAR2(255) NULL,
 

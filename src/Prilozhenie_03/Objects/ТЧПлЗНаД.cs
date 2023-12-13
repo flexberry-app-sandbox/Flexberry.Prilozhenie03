@@ -31,19 +31,28 @@ namespace IIS.Prilozhenie_03
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТЧПлЗНаДE", new string[] {
             "СтЗатрат as \'Статья затрат\'",
+            "СпрКонтрАг as \'Контрагент\'",
+            "СпрКонтрАг.Наименование as \'Контрагент\'",
+            "СпрНомен as \'Номенклатура\'",
+            "СпрНомен.Наименование as \'Номенклатура\'",
+            "СпрВидыРаб as \'Вид работы\'",
+            "СпрВидыРаб.Наименование as \'Вид работы\'",
             "ОбРаб as \'Объем работ\'",
             "ВремПриб as \'Время прибытия\'",
             "КолЧас as \'Количество часов работы\'"})]
+    [MasterViewDefineAttribute("ТЧПлЗНаДE", "СпрКонтрАг", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Контрагент")]
+    [MasterViewDefineAttribute("ТЧПлЗНаДE", "СпрНомен", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номенклатура")]
+    [MasterViewDefineAttribute("ТЧПлЗНаДE", "СпрВидыРаб", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Вид работы")]
     public class ТЧПлЗНаД : ICSSoft.STORMNET.DataObject
     {
         
-        private System.DateTime fВремПриб;
-        
-        private string fОбРаб;
+        private float fКолЧас;
         
         private float fОбГруз;
         
-        private float fКолЧас;
+        private string fОбРаб;
+        
+        private System.DateTime fВремПриб;
         
         private string fСтЗатрат;
         

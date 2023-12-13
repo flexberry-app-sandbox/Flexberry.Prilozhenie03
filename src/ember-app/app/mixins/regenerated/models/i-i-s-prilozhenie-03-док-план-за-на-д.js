@@ -81,9 +81,18 @@ export let defineProjections = function (modelClass) {
     }, { index: 7 }),
     тЧПлЗНаД: hasMany('i-i-s-prilozhenie-03-т-ч-пл-з-на-д', 'Табличная Часть Плановая заявка на день', {
       стЗатрат: attr('Статья затрат', { index: 0 }),
-      обРаб: attr('Объем работ', { index: 1 }),
-      времПриб: attr('Время прибытия', { index: 2 }),
-      колЧас: attr('Количество часов работы', { index: 3 })
+      спрКонтрАг: belongsTo('i-i-s-prilozhenie-03-спр-контр-аг', 'Контрагент', {
+        наименование: attr('Контрагент', { index: 2 })
+      }, { index: 1, displayMemberPath: 'контрагент' }),
+      спрНомен: belongsTo('i-i-s-prilozhenie-03-спр-номен', 'Номенклатура', {
+        наименование: attr('Номенклатура', { index: 4 })
+      }, { index: 3, displayMemberPath: 'номенклатура' }),
+      спрВидыРаб: belongsTo('i-i-s-prilozhenie-03-спр-виды-раб', 'Вид работы', {
+        наименование: attr('Вид работы', { index: 6 })
+      }, { index: 5, displayMemberPath: 'вид работы' }),
+      обРаб: attr('Объем работ', { index: 7 }),
+      времПриб: attr('Время прибытия', { index: 8 }),
+      колЧас: attr('Количество часов работы', { index: 9 })
     })
   });
 
