@@ -109,10 +109,6 @@ $.extend(true, translations, {
         'prilozhenie-03': {
           caption: 'Prilozhenie_03',
           title: 'Prilozhenie_03',
-          'i-i-s-prilozhenie-03-спр-пользов-l': {
-            caption: 'Справочник пользователи',
-            title: ''
-          },
           'i-i-s-prilozhenie-03-спр-ед-измер-l': {
             caption: 'Справочник единицы измерения',
             title: ''
@@ -139,6 +135,10 @@ $.extend(true, translations, {
           },
           'i-i-s-prilozhenie-03-спр-виды-раб-l': {
             caption: 'Справочник виды работ',
+            title: ''
+          },
+          'i-i-s-prilozhenie-03-спр-пользов-l': {
+            caption: 'Справочник пользователи',
             title: ''
           }
         }

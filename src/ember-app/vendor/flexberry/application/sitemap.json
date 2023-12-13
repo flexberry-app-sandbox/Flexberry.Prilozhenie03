@@ -9,13 +9,6 @@
       "title": "Prilozhenie_03",
       "children": [
         {
-          "link": "i-i-s-prilozhenie-03-спр-пользов-l",
-          "menuName": null,
-          "caption": "Справочник пользователи",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-prilozhenie-03-спр-ед-измер-l",
           "menuName": null,
           "caption": "Справочник единицы измерения",
@@ -61,6 +54,13 @@
           "link": "i-i-s-prilozhenie-03-спр-виды-раб-l",
           "menuName": null,
           "caption": "Справочник виды работ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-03-спр-пользов-l",
+          "menuName": null,
+          "caption": "Справочник пользователи",
           "title": "",
           "children": null
         }
