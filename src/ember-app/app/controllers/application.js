@@ -22,67 +22,138 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.prilozhenie-03.caption'),
-          title: i18n.t('forms.application.sitemap.prilozhenie-03.title'),
+          caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.caption'),
+          title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.title'),
           children: [{
             link: 'i-i-s-prilozhenie-03-спр-ед-измер-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-ед-измер-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-ед-измер-l.title'),
-            icon: 'edit',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-ед-измер-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-ед-измер-l.title'),
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-контр-аг-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-контр-аг-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-контр-аг-l.title'),
-            icon: 'table',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-контр-аг-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-контр-аг-l.title'),
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-номен-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-номен-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-номен-l.title'),
-            icon: 'edit',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-номен-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-номен-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-трансп-ср-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-трансп-ср-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-трансп-ср-l.title'),
-            icon: 'paperclip',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-трансп-ср-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-трансп-ср-l.title'),
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-объект-стр-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-объект-стр-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-объект-стр-l.title'),
-            icon: 'file',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-объект-стр-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-объект-стр-l.title'),
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-тип-транс-ср-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.title'),
-            icon: 'briefcase',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-виды-раб-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-виды-раб-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-виды-раб-l.title'),
-            icon: 'phone',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-виды-раб-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-виды-раб-l.title'),
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-пользов-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-пользов-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-спр-пользов-l.title'),
-            icon: 'briefcase',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-пользов-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-пользов-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-факт-выпол-раб-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-факт-выпол-раб-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-факт-выпол-раб-l.title'),
-            icon: 'file',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-факт-выпол-раб-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-факт-выпол-раб-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-док-план-за-на-д-l',
-            caption: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-док-план-за-на-д-l.caption'),
-            title: i18n.t('forms.application.sitemap.prilozhenie-03.i-i-s-prilozhenie-03-док-план-за-на-д-l.title'),
-            icon: 'paperclip',
+            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-док-план-за-на-д-l.caption'),
+            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-док-план-за-на-д-l.title'),
+            icon: 'folder open',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.справочники.caption'),
+          title: i18n.t('forms.application.sitemap.справочники.title'),
+          children: [{
+            link: 'i-i-s-prilozhenie-03-спр-тип-транс-ср-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.title'),
+            icon: 'file',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-ед-измер-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-ед-измер-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-ед-измер-l.title'),
+            icon: 'building',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-трансп-ср-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-трансп-ср-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-трансп-ср-l.title'),
+            icon: 'table',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-виды-раб-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-виды-раб-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-виды-раб-l.title'),
+            icon: 'book',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-объект-стр-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-объект-стр-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-объект-стр-l.title'),
+            icon: 'archive',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-контр-аг-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-контр-аг-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-контр-аг-l.title'),
+            icon: 'address card',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-пользов-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-пользов-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-пользов-l.title'),
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-спр-номен-l',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-номен-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-номен-l.title'),
+            icon: 'suitcase',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.документы.caption'),
+          title: i18n.t('forms.application.sitemap.документы.title'),
+          children: [{
+            link: 'i-i-s-prilozhenie-03-факт-выпол-раб-l',
+            caption: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-факт-выпол-раб-l.caption'),
+            title: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-факт-выпол-раб-l.title'),
+            icon: 'chart bar',
+            children: null
+          }, {
+            link: 'i-i-s-prilozhenie-03-док-план-за-на-д-l',
+            caption: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-док-план-за-на-д-l.caption'),
+            title: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-док-план-за-на-д-l.title'),
+            icon: 'chart bar',
             children: null
           }]
         }
