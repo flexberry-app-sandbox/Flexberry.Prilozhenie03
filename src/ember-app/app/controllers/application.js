@@ -22,120 +22,54 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.caption'),
-          title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.title'),
-          children: [{
-            link: 'i-i-s-prilozhenie-03-спр-ед-измер-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-ед-измер-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-ед-измер-l.title'),
-            icon: 'folder',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-контр-аг-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-контр-аг-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-контр-аг-l.title'),
-            icon: 'folder open',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-номен-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-номен-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-номен-l.title'),
-            icon: 'phone',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-трансп-ср-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-трансп-ср-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-трансп-ср-l.title'),
-            icon: 'address card',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-объект-стр-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-объект-стр-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-объект-стр-l.title'),
-            icon: 'list',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-тип-транс-ср-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.title'),
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-виды-раб-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-виды-раб-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-виды-раб-l.title'),
-            icon: 'file',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-спр-пользов-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-пользов-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-спр-пользов-l.title'),
-            icon: 'chart line',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-факт-выпол-раб-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-факт-выпол-раб-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-факт-выпол-раб-l.title'),
-            icon: 'list',
-            children: null
-          }, {
-            link: 'i-i-s-prilozhenie-03-док-план-за-на-д-l',
-            caption: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-док-план-за-на-д-l.caption'),
-            title: i18n.t('forms.application.sitemap.диспетчеризация-транспортных-средств.i-i-s-prilozhenie-03-док-план-за-на-д-l.title'),
-            icon: 'chart line',
-            children: null
-          }]
-        }, {
-          link: null,
-          icon: 'list',
           caption: i18n.t('forms.application.sitemap.справочники.caption'),
           title: i18n.t('forms.application.sitemap.справочники.title'),
           children: [{
             link: 'i-i-s-prilozhenie-03-спр-тип-транс-ср-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-тип-транс-ср-l.title'),
-            icon: 'chart bar',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-ед-измер-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-ед-измер-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-ед-измер-l.title'),
-            icon: 'paperclip',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-трансп-ср-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-трансп-ср-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-трансп-ср-l.title'),
-            icon: 'chart bar',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-виды-раб-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-виды-раб-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-виды-раб-l.title'),
-            icon: 'list',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-объект-стр-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-объект-стр-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-объект-стр-l.title'),
-            icon: 'archive',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-контр-аг-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-контр-аг-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-контр-аг-l.title'),
-            icon: 'suitcase',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-пользов-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-пользов-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-пользов-l.title'),
-            icon: 'briefcase',
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-спр-номен-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-номен-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-prilozhenie-03-спр-номен-l.title'),
-            icon: 'briefcase',
             children: null
           }]
         }, {
@@ -147,13 +81,13 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-03-факт-выпол-раб-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-факт-выпол-раб-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-факт-выпол-раб-l.title'),
-            icon: 'table',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-03-док-план-за-на-д-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-док-план-за-на-д-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-prilozhenie-03-док-план-за-на-д-l.title'),
-            icon: 'address card',
+            icon: 'paperclip',
             children: null
           }]
         }
